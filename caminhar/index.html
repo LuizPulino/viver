@@ -5,12 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/main.css">
     <script src="/assets/js/zepto.min.js"></script>
-    <script type="module" src="init.js" defer></script>
+    <script type="module" src="initzepto.js" defer></script>
     <title>Document</title>
 </head>
 <body>
-    <header><nav id="nav"></nav><h1>Title</h1></header>
-    <main id="app">initial content</main>
+    <header>
+        <nav>
+            <img src="/assets/img/menu.svg" alt="menu">
+            <ul>
+                <li><a href="#beneficios">Benefícios</a></li>
+                <li><a href="#treino">Treino</a></li>
+                <li><a href="#historico">Histórico</a></li>
+            </ul>
+        </nav>
+        <h1>Title</h1>
+    </header>
+    <main>
+        <section id="beneficios">
+            <h2>Benefícios</h2>
+            <p>Ter o hábito de caminhar</p>
+        </section>
+        <section id="treino">
+            <h2>Registrar treino</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+        </section>
+        <section id="historico">
+            <h2>Histórico</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+        </section>
+        <section id="notfound">
+            <h2>Sessão não encontrada</h2>
+            <p>A sessão <span id="hash"></span> não foi encontrada. Verifique a URL digitada.</p>
+        </section>
+    </main>
     <div id="log">log</div>
 </body>
 </html>

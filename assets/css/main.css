@@ -4,3 +4,12 @@
     padding:0;
     font-family: tahoma;
 }
+body{
+    margin:.25em;
+}
+h1,h2,h3,h4,h5,h6, p{
+    margin:.25em 0;
+}
+#notfound>h2{
+    color:red;
+}
